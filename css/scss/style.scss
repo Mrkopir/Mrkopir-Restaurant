@@ -1,5 +1,6 @@
 $fontfoc: 'Montserrat Alternates', sans-serif;
 $fontmarl: 'Marck Script', cursive;
+$fontLat: 'Lato', sans-serif;
 
 body{
     margin: 0;
@@ -104,6 +105,50 @@ header{
             line-height: 1.2;
             font-weight: 500;
             color: #ffffff;
+        }
+    }
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(../../img/background_399.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 52em;
+    .about__title{
+        margin: 110px 0 0 0;
+        h3{
+            font-family: $fontmarl;
+            font-size: 42px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #fb5231;
+        }
+    }
+    .about__decoration{
+        margin: 20px 0 0 0;
+        img{
+
+        }
+    }
+    .about__text{
+        margin: 35px 0 0 0;
+        p{
+            font-family: $fontLat;
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #4c4c4c;
+            text-align: center;
+        }
+    }
+    .about__cookImg{
+        margin: 42px 0 0 0;
+        img{
+
         }
     }
 }

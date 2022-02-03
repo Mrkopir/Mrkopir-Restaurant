@@ -124,3 +124,49 @@ header {
   font-weight: 500;
   color: #ffffff;
 }
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../../img/background_399.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 52em;
+}
+.about .about__title {
+  margin: 110px 0 0 0;
+}
+.about .about__title h3 {
+  font-family: "Marck Script", cursive;
+  font-size: 42px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fb5231;
+}
+.about .about__decoration {
+  margin: 20px 0 0 0;
+}
+.about .about__text {
+  margin: 35px 0 0 0;
+}
+.about .about__text p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #4c4c4c;
+  text-align: center;
+}
+.about .about__cookImg {
+  margin: 42px 0 0 0;
+}
