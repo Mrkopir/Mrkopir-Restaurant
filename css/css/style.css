@@ -226,10 +226,6 @@ header {
   margin: 0 25px;
 }
 
-.menu {
-  background-color: yellow;
-}
-
 .reviews {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -271,4 +267,478 @@ header {
 }
 .reviews .rewiews__stars {
   margin: 0 0 150px 0;
+}
+.reservations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../../img/layers.png);
+  background-size: 100%;
+}
+.reservations .reservations__img {
+  margin: 7em 0em 7em 19em;
+}
+.reservations .reservations__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+.reservations .reservations__main .reservations__main__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.reservations .reservations__main .reservations__main__title h3 {
+  font-family: "Marck Script", cursive;
+  font-size: 36px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fb5231;
+}
+.reservations .reservations__main .reservations__main__text {
+  margin: 0 0 40px 0;
+}
+.reservations .reservations__main .reservations__main__text p {
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #4c4c4c;
+}
+.reservations .reservations__main .reservations__main__form form {
+  margin: 0 -7px 0 0;
+}
+.reservations .reservations__main .reservations__main__form form .reservations__main__form__first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0 auto;
+}
+.reservations .reservations__main .reservations__main__form form .reservations__main__form__secound {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.reservations .reservations__main .reservations__main__form form p {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #fb5231;
+}
+.reservations .reservations__main .reservations__main__form form input {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  width: 180px;
+  height: 36px;
+  border: 1px solid #fb5231;
+  padding: 0 0 0 20px;
+  margin: 0 20px 0 0;
+}
+.reservations .reservations__main .reservations__main__form form button {
+  width: 200px;
+  height: 36px;
+  background-color: rgba(251, 82, 49, 0.98);
+  border: none;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: "Montserrat Alternates", sans-serif;
+  margin: 11.5% 25.5%;
+}
+
+.menu {
+  background-image: url(../../img/layers2.png);
+  background-size: 100%;
+  height: 80em;
+}
+.menu .a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.menu .b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.menu .menu__appetisers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 4% 0 0 0;
+}
+.menu .menu__appetisers .menu__appetisers__title h3 {
+  font-family: "Marck Script", cursive;
+  font-size: 36px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.menu .menu__appetisers .menu__appetisers__main .menu_appetisers__main__f span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.menu .menu__appetisers .menu__appetisers__main .menu_appetisers__main__f span h4 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.menu .menu__appetisers .menu__appetisers__main .menu_appetisers__main__f p {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.menu .menu__salads {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.menu .menu__salads .menu__salads__title h3 {
+  font-family: "Marck Script", cursive;
+  font-size: 36px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.menu .menu__salads .menu__salads__main .menu_salads__main__f span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.menu .menu__salads .menu__salads__main .menu_salads__main__f span h4 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.menu .menu__salads .menu__salads__main .menu_salads__main__f p {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.menu .menu__starters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 4% 0 0 0;
+}
+.menu .menu__starters .menu__starters__title h3 {
+  font-family: "Marck Script", cursive;
+  font-size: 36px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.menu .menu__starters .menu__starters__main .menu_starters__main__f span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.menu .menu__starters .menu__starters__main .menu_starters__main__f span h4 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.menu .menu__starters .menu__starters__main .menu_starters__main__f p {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.menu .menu__mainDishes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -7% 0 0 0;
+}
+.menu .menu__mainDishes .menu__mainDishes__title h3 {
+  font-family: "Marck Script", cursive;
+  font-size: 36px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.menu .menu__mainDishes .menu__mainDishes__main .menu_mainDishes__main__f span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.menu .menu__mainDishes .menu__mainDishes__main .menu_mainDishes__main__f span h4 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.menu .menu__mainDishes .menu__mainDishes__main .menu_mainDishes__main__f p {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer {
+  background-image: url(../../img/base_1016.png);
+  background-size: 100%;
+  height: 18em;
+}
+footer .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 14em;
+}
+footer .first .footer__phone {
+  margin: 7em 11em 0 11em;
+  height: 5em;
+}
+footer .first .footer__phone .footer__phone__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .first .footer__phone .footer__phone__img img {
+  margin: 0 auto;
+}
+footer .first .footer__phone p {
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #969595;
+}
+footer .first .footer_logo {
+  margin: 3em auto;
+  height: 5em;
+}
+footer .first .footer__where {
+  margin: 7em;
+  height: 5em;
+}
+footer .first .footer__where .footer__where__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .first .footer__where .footer__where__img img {
+  margin: 0 auto;
+}
+footer .first .footer__where p {
+  font-size: 20px;
+  font-family: "Rajdhani", sans-serif;
+  line-height: 22px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #969595;
+}
+footer .links {
+  background-color: #1a1e36;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .links a {
+  margin: 0 10px;
+}
+
+.g {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0 30px 0;
+}
+
+@media screen and (max-width: 1450px) {
+  header {
+    height: 42em;
+  }
+
+  .header__nav {
+    margin: 25px 0 0 0;
+  }
+
+  .about {
+    height: 40em;
+  }
+
+  .about .about__title {
+    margin: 0;
+  }
+
+  .menu .menu__mainDishes {
+    margin: -10.2% 0 0 0;
+  }
+
+  .reservations .reservations__img {
+    margin: 2em 0em 1em 11em;
+  }
+
+  footer .first .footer__phone {
+    margin: 5em 11em 0 11em;
+  }
+
+  footer .first .footer__where {
+    margin: 5em auto;
+  }
+}
+@media screen and (max-width: 1230px) {
+  header {
+    height: 30em;
+  }
+
+  .header__nav ul li {
+    margin: 0 25px 0 0;
+  }
+
+  .header_main .header__title h1 {
+    margin: 0 0 2% 0;
+    font-size: 70px;
+  }
+
+  .header_main_button {
+    margin: 2em 0em 0 0;
+  }
+
+  .about {
+    height: 28em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+
+  .about__cookImg {
+    margin: auto;
+  }
+
+  .about .about__decoration {
+    margin: 0;
+  }
+
+  .about__text {
+    margin: 0;
+  }
+
+  .ingredients {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .ingredients .ingredients__main .ingredients__main__text p {
+    margin: 0;
+  }
+
+  .reservations .reservations__img {
+    margin: auto;
+  }
+
+  .reservations__img img {
+    width: 30em;
+  }
+
+  footer .first .footer__phone {
+    margin: 5em 8em 0 5em;
+  }
 }
