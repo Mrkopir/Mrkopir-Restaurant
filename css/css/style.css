@@ -5,7 +5,8 @@ body {
 header {
   background: url(../../img/rectangle_3_962.png);
   background-size: 100%;
-  height: 49em;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header_log_nav_link {
@@ -89,7 +90,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 5em 0em 0 0;
+  padding: 5em;
 }
 .header_main_button .header_main_button_fis {
   margin: 0 1.25em 0 auto;
@@ -179,12 +180,8 @@ header {
       -ms-flex-align: center;
           align-items: center;
   background-image: url(../../img/background_399.png);
-  background-repeat: no-repeat;
+  background-repeat: round;
   background-size: 100%;
-  height: 52em;
-}
-.about .about__title {
-  margin: 110px 0 0 0;
 }
 .about .about__title h3 {
   font-family: "Marck Script", cursive;
@@ -694,7 +691,7 @@ footer .links a {
 }
 @media screen and (max-width: 1450px) {
   header {
-    height: 42em;
+    background-size: cover;
   }
 
   .header__nav {
@@ -702,7 +699,7 @@ footer .links a {
   }
 
   .about {
-    height: 40em;
+    background-repeat: round;
   }
 
   .about .about__title {
@@ -731,7 +728,7 @@ footer .links a {
 }
 @media screen and (max-width: 1230px) {
   header {
-    height: 30em;
+    background-size: cover;
   }
 
   .header__nav ul li {
@@ -800,6 +797,14 @@ footer .links a {
 }
 
 @media screen and (max-width: 780px) {
+  .header_main_button {
+    margin: 0;
+  }
+
+  .header_main_button {
+    padding: 2em;
+  }
+
   .block {
     display: block;
   }
@@ -813,7 +818,7 @@ footer .links a {
   }
 
   header {
-    height: 22em;
+    background-size: cover;
   }
 
   .header__logo {
@@ -1097,7 +1102,11 @@ footer .links a {
   }
 
   .header_main_buttons .header_main_button_fis {
-    margin: 0 1.25em 25px auto;
+    margin: 5% auto;
+  }
+
+  .header_main_buttons .header_main_button_sec {
+    margin: auto;
   }
 
   .header_main__decoration {
@@ -1113,7 +1122,7 @@ footer .links a {
   }
 
   header {
-    height: 11.8em;
+    background-size: cover;
   }
 
   .about__title h3 {
@@ -1281,7 +1290,7 @@ footer .links a {
 }
 @media screen and (max-width: 385px) {
   header {
-    height: 10.8em;
+    background-size: cover;
   }
 
   .about .about__title h3 {
@@ -1444,7 +1453,7 @@ footer .links a {
   }
 
   header {
-    height: 8.8em;
+    background-size: cover;
   }
 
   .about .about__title h3 {
